@@ -1,14 +1,241 @@
-.do
+*
 {
-    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.responsive
+.banner
 {
-    padding: 0px 60px 50px 50px;
-    margin-right: 30%;
+    width: 215vh;
+    height: 650vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo
+{
+    cursor: pointer;
+    width: 200px;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.features
+{
+   /*float: right;*/
+   
+   
+   margin-left: 7.4%;
+   margin-bottom: 0;
+   color: white;
+   display: inline-block;
+   /*background-color: red;*/
+   
+   
+}
+
+.features h5
+{
+    margin: 20px auto;
+    font-weight: 100;
+    position: relative;
+
+}
+
+.features ul li a
+{
+    text-decoration: none;
+    color: white;
     
 }
+.features ul li
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.features ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.features ul li :hover::after
+{
+    width: 100%;
+}
+.features span
+{
+    margin-left: 120px;
+}
 
+.right
+{
+    margin-left: 29%;
+    margin-bottom: -200px;
+    margin-top: -500px;
+    color: white;
+    border: 2px;
+    /*background-color: blue;*/
+}
 
+.Campus-Tour
+{
+    margin-bottom: -300px;
+    margin-top: 235px;
+    margin-left: 29%;
+    height: 620px;
+    width: 880px;
+}
+
+.Campus-Tour-Description
+{
+    margin-top: 335px;
+    margin-left: 29%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Main-Campus
+{
+    margin-left: 30%;
+    margin-top: -205px;
+}
+
+.BMA-Campus
+{
+    margin-top: 240px;
+}
+
+.BMA-Campus-Description
+{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.BMA-Campus-Pic
+{
+    width: 300px;
+    height: 250px;
+    margin-left: 65%;
+    margin-top: -80px;
+}
+
+.BAFA-Campus
+{
+    margin-top: 50px;
+}
+
+.BAFA-Campus-Pic
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+}
+.BAFA-Campus-Description
+{
+    margin-left: 320px;
+    margin-top: -250px;
+    font-weight: bold;
+}
+
+.BNA-Campus
+{
+    margin-top: 250px;
+}
+
+.BNA-Campus-Description
+{
+    margin-top: 10px;
+    margin-right: 400px;
+}
+.BNA-Campus-Pic
+{
+    width: 300px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+.MIST-Location 
+{
+    margin-top: 15px;
+}
+.map
+{
+    margin-top: 20px;;
+    margin-left: 70px;
+    width: 800px;
+    height: 500px;
+}
+.MIST-Theme-Song
+{
+    margin-top: 25px;
+    margin-left: 70px;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.finishing
+{
+    margin-top: -308px;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    background: black;
+}
 
